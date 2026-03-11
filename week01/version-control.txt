@@ -1,0 +1,11 @@
+Explain Version Control by Felipe Solano
+
+Version Control refers to the tracking of changes (like a record)
+that is really useful when you are working with multiple people on a project
+so you can go back to something when needed, even something made by someone else. 
+So, there are several benefits of this tool, but one of the most important
+ones is that you can check which changes were made and keep track of 
+everything in the process. When working in a developing team it can be used to see who made the changes
+and if working as a team you can add notes so you can see why were the changes
+neccesary or ask the person itself. There are a lot to commands to learn, one of the most basic ones is "git add"
+because you use it to stage changes when commiting git into GitHub.
