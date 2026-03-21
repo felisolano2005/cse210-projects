@@ -1,0 +1,8 @@
+Abstraction is when you turn complex code into simple one that you can use reuse.
+One of the biggest benefits of Abstraction is that makes team projets easier,
+because one creates something that other can benefit themselves with and can also 
+help people outside making the job faster. For example you can use it to mwork with 
+files outside of the file you are wotking with. An example of an Abstraction in my 
+code is: string prompt = promptGen.GetRandomPrompt();
+This allows the program to get a prompt without needing to understand how the list is stored 
+or how the random selection works internally, making the code cleaner and easier to maintain.
