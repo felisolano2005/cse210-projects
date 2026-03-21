@@ -19,7 +19,6 @@ public class Journal
             entry.Display();
         }
 
-        // ⭐ Extra feature
         Console.WriteLine($"Total entries: {_entries.Count}");
     }
 
