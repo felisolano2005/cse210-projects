@@ -1,0 +1,62 @@
+#1 YouTube Videos
+Video
+-------------------
+title
+author
+length
+comments (list)
+
+AddComment()
+GetCommentCount()
+
+        ↓ (has many)
+
+Comment
+-------------------
+name
+text
+
+
+
+#2 Online Ordering
+Order
+-------------------
+products (list)
+customer
+
+AddProduct()
+GetTotalCost()
+GetPackingLabel()
+GetShippingLabel()
+
+        ↓ (has many)
+
+Product
+-------------------
+name
+productId
+price
+quantity
+
+GetTotalCost()
+
+-------------------
+
+Customer
+-------------------
+name
+address
+
+LivesInUSA()
+
+        ↓ (has)
+
+Address
+-------------------
+street
+city
+state
+country
+
+IsInUSA()
+GetFullAddress()
