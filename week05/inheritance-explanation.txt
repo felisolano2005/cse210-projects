@@ -1,0 +1,10 @@
+Inheritance is a way that object-oriented programming works. It is when one class gets things 
+from another class. This means that people who make programs do not have to write the code over 
+and over again. This makes programs easier to take care of and make sense of.
+One good thing about inheritance is that things that are used a lot like showing messages or 
+etting input from users can be written one time and used in classes.
+In my program I have classes like BreathingActivity that get things from the Activity class. 
+This means BreathingActivity gets to use things like StartMessage and EndMessage from the Activity class.
+This lets each activity do its thing while still using the Activity class for things that are the 
+same. This makes the program work better and easier to understand. Inheritance is really helpful in 
+my program. It uses inheritance to make things, like BreathingActivity work well with the Activity class.
