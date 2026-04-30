@@ -1,0 +1,24 @@
+I was working on a program to track my exercises. This program had to handle a lot of activities. 
+So I used something called abstraction. Abstraction is when you take a system and you make it simpler
+by focusing on the important parts.
+
+In my program I made a class called Activity. The Activity class had methods like GetDistance 
+and GetSpeed. This was helpful because all the different activities could follow the basic structure.
+They did not have to show all the specific details about how they worked. This made it easy to add 
+activities later on.
+
+I also used something called encapsulation. Encapsulation is when you keep the data private and 
+you control how other parts of the program can access it. I used variables like _minutes. I only 
+let other parts of the program access these variables through methods. This helps keep the data safe.
+It also makes it easy to make changes to the program without breaking parts of it.
+
+Then there is inheritance. Inheritance is when one class can use code from another class. In my 
+program I had classes, for Running, Cycling and Swimming. All of these classes are based on the 
+Activity class. This means they can use the code as the Activity class. This helps cut down on 
+duplication. It makes it easy to update the program.
+
+I also used something called polymorphism. Polymorphism is when methods can work differently 
+depending on the object they are working with. For example I had a method called GetSummary. 
+When I called GetSummary on each activity I got results. This makes the program very flexible 
+and easy to extend. The Activity class helps with this because it provides a structure that all 
+the other activities can follow.
